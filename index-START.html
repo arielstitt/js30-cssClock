@@ -72,7 +72,13 @@
 
   <script>
 
-    
+    function setDate(){
+      // grab the date 
+      const now = new Date();
+      const seconds = now.getSeconds();
+    }
+    //run something every second
+    setInterval(setDate, 1000);
   </script>
 </body>
 </html>
